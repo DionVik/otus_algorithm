@@ -1,4 +1,5 @@
 # Нахождение кол-ва счастливых билетов для 6 значного числа
+
 def main():
     count = 0
     for a1 in range(0, 10):
@@ -8,7 +9,7 @@ def main():
                 for b1 in range(0, 10):
                     for b2 in range(0, 10):
                         b3 = sum - b1 - b2
-                        if b3 >=0 and b3 < 10:
+                        if b3 >= 0 and b3 < 10:
                             count += 1
     print(f"count = {count}")
 
@@ -16,4 +17,6 @@ def main():
 if __name__ == "__main__":
     main()
 
+# ответ count = 55252
 # затрачено 10 мин.
+
