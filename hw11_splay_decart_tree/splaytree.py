@@ -51,7 +51,6 @@ class Tree:
         return b
         
     def splay_insert(self, key):
-        breakpoint()
         curr = self.insert(key=key)
         parent = self.search_parent(curr, self.root)
         while parent != None:
